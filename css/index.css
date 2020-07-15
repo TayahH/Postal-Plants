@@ -1,0 +1,23 @@
+.carousel-inner{
+    height: "70%";
+}
+
+.carousel-caption h1, h3{
+    color:#2E2E2E;
+}
+
+.carousel-caption span{
+    background-color: white;
+}
+
+.carousel-caption button a{
+    color: white;
+}
+
+.card-body h6, p{
+    text-align: center;
+}
+
+.items-row-2{
+    padding-top: 30px;
+}

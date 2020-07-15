@@ -1,0 +1,51 @@
+.breadcrumb{
+    background-color: white;
+}
+
+.col-sm-3{
+    overflow-wrap: break-word;
+}
+
+.reviewbox{
+    padding-top: 10px;
+    padding-right: 35px;
+}
+
+.tags{
+    padding-top: 10px;
+}
+
+.tags button{
+    margin-top: 10px;
+}
+
+.review {
+    padding-top: 10px;
+}
+
+.comment{
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.col-sm-5{
+    background-color: #f8f9fa;
+}
+
+.modal-footer a{
+    color: white;
+}
+
+.col-sm-4{
+    background-color: #f8f9fa;
+}
+
+.md-form input{
+    width: 100%;
+}
+
+.col-md-6{
+    padding-top: 10px;
+}
+

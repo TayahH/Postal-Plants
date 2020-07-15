@@ -1,0 +1,38 @@
+.tags{
+    padding-top: 30px;
+    padding-right: 35px;
+}
+
+.tags button{
+    margin-top: 10px;
+}
+
+.form-group {
+    padding-top: 15px;
+}
+
+.stock{
+    padding-top: 20px;
+}
+
+.upload{
+    padding-right: 30px;
+}
+
+.upload button{
+    width: 100%;
+    margin-top: 50%;
+    text-align: left;
+}
+
+.modal-footer a{
+    color: white;
+}
+
+.form{
+    padding: 20%;
+}
+
+.md-form input{
+    width: 100%;
+}

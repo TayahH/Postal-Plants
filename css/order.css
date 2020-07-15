@@ -1,0 +1,31 @@
+.breadcrumb {
+    background-color: white;
+}
+
+.col-lg-9{
+    padding-top: 35px;
+}
+
+.continue-shopping{
+    padding-top: 20px;
+}
+
+.continue-shopping a{
+    color: white;
+}
+
+.col-8 {
+    background-color: #f8f9fa;
+}
+
+.col-8 form{
+    padding: 20px;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.modal-footer a{
+    color: white;
+}

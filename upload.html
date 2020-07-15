@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Postal Plants App">
+  <title>Postal Plants</title>
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/upload.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo.jpg" width="400px" height="80px" alt="">
+      </a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav mr-auto">
+                <!-- Drop Down-->
+                <li class="nav-item dropdown">
+                    <h7 class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <!-- List Icon-->
+                    <svg class="bi bi-list" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+                    </svg>Menu</h7>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <form class="form-inline">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                        <hr>
+                        <!-- Dropdown Items-->
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="#">All Indoor</a>
+                        <a class="dropdown-item" href="#">New Arrivals</a>
+                        <a class="dropdown-item" href="#">Best Sellers</a>
+                        <a class="dropdown-item" href="#">Low Light</a>
+                        <a class="dropdown-item" href="#">Succulents</a>
+                        <a class="dropdown-item" href="#">Pet Friendly</a>
+                        <a class="dropdown-item" href="#">Tropical</a>
+                        <a class="dropdown-item" href="#">Air Purifiers</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav ml-auto">
+              <!-- Dropdown Menu-->
+              <li class="nav-item dropdown">
+                <h6 class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome Back, Seller
+                <svg class="bi bi-person-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
+                </svg></h6>
+
+                <!-- Dropdown Item-->
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#">Account</a>
+                  <a class="dropdown-item" href="upload.html">Upload a Plant</a>
+                  <a class="dropdown-item" href="#">Your Plants</a>
+                  <a class="dropdown-item" href="index.html">Log Out</a>
+                </div>     
+            </ul>  
+      </div>
+    </nav>
+</header>
+
+<main class="container-fluid">
+
+  <div class="row" style="border: 25px solid white">
+    <!-- Column 1-->
+    <div class="col-sm-4">
+      <h1>Upload a Plant</h1>
+      <div class="tags">
+        <h5>Tags</h5>
+        <button type="button" class="btn btn-primary btn-sm">Tropical Plant <span class="badge">x</span></button>
+        <button type="button" class="btn btn-primary btn-sm">Monstera <span class="badge">x</span></button>
+        <button type="button" class="btn btn-primary btn-sm">House Plant <span class="badge">x</span></button>
+        <button type="button" class="btn btn-primary btn-sm">Pet Friendly <span class="badge">x</span></button>
+        <button type="button" class="btn btn-primary btn-sm">Large <span class="badge">x</span></button>
+        <button type="button" class="btn btn-primary btn-sm">Propagate <span class="badge">x</span></button>
+
+        <div class="form-group">
+          <textarea class="form-control" id="itemTags" rows="5" placeholder="Type to add more tags..."></textarea>
+        </div>
+        <div class="stock">
+          Available Stock / Month
+          <input type="number" class="size-12" value="1" min="0" max="10" step="1">
+        </div>
+      </div>
+      <div class="upload">
+        <button type="button" class="btn btn-primary">Upload<span class="badge">
+          <svg class="bi bi-arrow-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L12.793 8l-2.647-2.646a.5.5 0 010-.708z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M2 8a.5.5 0 01.5-.5H13a.5.5 0 010 1H2.5A.5.5 0 012 8z" clip-rule="evenodd"/>
+          </svg>
+        </span></button> 
+      </div>
+    </div>
+
+    <!-- Column 2-->
+    <div class="col-sm-4" style="background-color: #f8f9fa;">
+      <form style="padding: 20px; padding-top: 40px;">
+        <div class="form-group">
+          <input type="title" class="form-control" id="itemTitle" placeholder="Input Plant Name">
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" id="itemDesc" rows="1" placeholder="Price"></textarea>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" id="itemDesc" rows="4" placeholder="Input Item Description"></textarea>
+        </div>
+
+        <form style="padding: 20px;">
+          <h6>Plant Care Ranking</h6>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio">Beginner</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio2">Intermediate</label>
+          </div> 
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio3" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio3">Advanced</label>
+          </div> 
+        </form>
+          
+        <form style="padding: 20px;">
+          <h6>Plant Size</h6>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Minimum">
+            </div>
+            <p>to</p>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Maximum">
+            </div>
+          </div>
+        </form>
+
+        <form style="padding: 20px;">
+          <h6>Watering Schedule</h6>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio4" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio4">Rarely</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio5" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio5">Fortnightly</label>
+          </div> 
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio6" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio6">Weekly</label>
+          </div> 
+        </form>
+      </form>
+    </div>
+
+          <!-- Column 3-->
+          <div class="col-sm-4" style="background-color: #f8f9fa;">
+            <form class="md-form">
+              <input type="image" src="img/upload.jpg">
+              <div class="row">
+                <div class="col-6">
+                  <input type="image" src="img/uploadsmall.jpg">
+                </div>
+                <div class="col-6">
+                  <input type="image" src="img/uploadsmall.jpg">
+                </div>
+              </div>
+            </form>
+        </form>
+      </div>
+</main>
+
+<!-- Bootstrap CSS-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+<footer class="footer">
+  <div class="text-center py-2 bg-secondary">
+      <span class="text-light">&copy; 2020 Postal Plants All rights reserved. Privacy Policy | Terms of Use</span>
+  </div>
+</footer>
+
+</html>
+
+    
+
+
+
+
+
